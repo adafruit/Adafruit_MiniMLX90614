@@ -46,6 +46,9 @@ void loop() {
   uint8_t red, blue;
   float temp = mlx.readObjectTempF();
 
+  if (temp < COLDTEMP) temp = COLDTEMP;
+  if (temp > HOTTEMP) temp = HOTTEMP;
+
   // map temperature to red/blue color
   // hotter temp -> more red
   red = map(temp, COLDTEMP, HOTTEMP, 0, 255);  
