@@ -54,7 +54,7 @@ void loop() {
 
   colorWipe(strip.Color(red, 0, blue), 0);
   
-  delay(500);
+  delay(50); // can adjust this for faster/slower updates
 }
 
 // Fill the dots one after the other with a color
