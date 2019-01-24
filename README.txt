@@ -1,8 +1,7 @@
-This is a library for the MLX90614 temperature sensor SPECIFICALLY
-FOR USE WITH TINYWIREM ON TRINKET/GEMMA
+This library has been deprecated, and we have a working Wire implementation for Trinket/Gemma.
+So, you can use the regular https://github.com/adafruit/Adafruit-MLX90614-Library
 
-Requires the latest TinyWireM with repeated-start support
-https://github.com/adafruit/TinyWireM
+-------------------------------------------------------------------------
 
 NOT FOR REGULAR ARDUINOS! Use the regular Adafruit_MLX90614 for that
 
